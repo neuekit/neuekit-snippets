@@ -6,6 +6,10 @@ SpringBoard Snippets brings rapid access to frequently used classes, helpers, ma
 
 Available for Atom & Visual Studio Code.
 
+*Atom*
+
+![](/images/sb-atom.gif)
+
 _________________________________
 
 The <a href="http://creativelittle.uk/springboard" target="_blank">Creative Little SpringBoard</a> is a utilitarian, ITCSS based, super scaleable front-end framework. It's built for the modern web and only supports modern browsers, oh and IE11, all for the benefit of web users everywhere.
