@@ -1,12 +1,6 @@
 ```
 ##################################################################################################
 #
-# SPRINGBOARD ATOM SNIPPETS
-# version: 0.1
-# author: Chris Myers
-# Springboard: https://github.com/creativelittledots/springboard
-# Copyright (c) 2018 Creative Little Dots
-#
 #
 #   .d8888b.                   d8b                   888888b.                                 888
 #  d88P  Y88b                  Y8P                   888  "88b                                888
@@ -19,6 +13,12 @@
 #             888                                888
 #             888                           Y8b d88P
 #             888                            "Y88P"
+#
+#
+# SPRINGBOARD ATOM SNIPPETS
+# version: 0.1
+# Springboard: https://github.com/creativelittledots/springboard
+# Copyright (c) 2018 Creative Little Dots
 #
 ##################################################################################################
 ```
