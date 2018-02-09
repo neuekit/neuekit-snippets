@@ -1,6 +1,6 @@
 # SpringBoard Snippets
 
-Fast fingers rejoice! SpringBoard Snippets is here. 
+👋 Fast fingers rejoice! SpringBoard Snippets is here. 
 
 SpringBoard Snippets brings rapid access to frequently used classes, helpers, markup and more, from the SpringBoard front-end framework.
 
@@ -13,10 +13,10 @@ Available for Atom & Visual Studio Code (coming soon).
 
 
 
-
+👨🏻‍💻
 ###### SPRINGBOARD SNIPPETS
 ###### Version: 0.1
-###### Springboard: https://github.com/creativelittledots/springboard
+###### SpringBoard: https://github.com/creativelittledots/springboard
 ###### Copyright (c) 2018 Creative Little Dots
 _________________________________
 
