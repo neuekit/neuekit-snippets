@@ -6,7 +6,7 @@ SpringBoard Snippets brings rapid access to frequently used classes, helpers, ma
 
 Available for Atom & Visual Studio Code.
 
-*Atom*
+### Atom
 
 ![](/images/sb-atom.gif)
 
