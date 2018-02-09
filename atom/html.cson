@@ -1,30 +1,6 @@
-##################################################################################################
-#
-# SPRINGBOARD ATOM SNIPPETS
-# version: 0.1
-# author: Chris Myers
-# Springboard: https://github.com/creativelittledots/springboard
-# Copyright (c) 2018 Creative Little Dots
-#
-#
-#   .d8888b.                   d8b                   888888b.                                 888
-#  d88P  Y88b                  Y8P                   888  "88b                                888
-#  Y88b.                                             888  .88P                                888
-#   "Y888b.   88888b.  888d888 888 88888b.   .d88b.  8888888K.   .d88b.   8888b.  888d888 .d88888
-#      "Y88b. 888 "88b 888P"   888 888 "88b d88P"88b 888  "Y88b d88""88b     "88b 888P"  d88" 888
-#        "888 888  888 888     888 888  888 888  888 888    888 888  888 .d888888 888    888  888
-#  Y88b  d88P 888 d88P 888     888 888  888 Y88b 888 888   d88P Y88..88P 888  888 888    Y88b 888
-#   "Y8888P"  88888P"  888     888 888  888  "Y88888 8888888P"   "Y88P"  "Y888888 888     "Y88888
-#             888                                888
-#             888                           Y8b d88P
-#             888                            "Y88P"
-#
-##################################################################################################
-
-
-###################
-# HTML
-###################
+################################################################################
+# SPRINGBOARD HTML SNIPPETS
+################################################################################
 
 '.text.html.basic':
 
@@ -635,64 +611,3 @@
 
         </div>
         """
-
-
-
-
-
-################################################################################
-# HTML - Strings
-################################################################################
-
-'.string.html':
-
-    # Springboard 'Size' utility classes
-
-    'Springboard Size 12':
-        'prefix': 's12'
-        'body': 'u-size-12'
-
-    'Springboard Size 11':
-        'prefix': 's11'
-        'body': 'u-size-11'
-
-    'Springboard Size 10':
-        'prefix': 's10'
-        'body': 'u-size-10'
-
-    'Springboard Size 9':
-        'prefix': 's9'
-        'body': 'u-size-9'
-
-    'Springboard Size 8':
-        'prefix': 's8'
-        'body': 'u-size-8'
-
-    'Springboard Size 7':
-        'prefix': 's7'
-        'body': 'u-size-7'
-
-    'Springboard Size 6':
-        'prefix': 's6'
-        'body': 'u-size-6'
-
-    'Springboard Size 5':
-        'prefix': 's5'
-        'body': 'u-size-5'
-
-    'Springboard Size 4':
-        'prefix': 's4'
-        'body': 'u-size-4'
-
-    'Springboard Size 3':
-        'prefix': 's3'
-        'body': 'u-size-3'
-
-    'Springboard Size 2':
-        'prefix': 's2'
-        'body': 'u-size-2'
-
-    'Springboard Size 1':
-        'prefix': 's1'
-        'body': 'u-size-1'
-

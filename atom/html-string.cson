@@ -1,0 +1,55 @@
+################################################################################
+# SPRINGBOARD HTML STRING SNIPPETS
+################################################################################
+
+'.string.html':
+
+    # Springboard 'Size' utility classes
+
+    'Springboard Size 12':
+        'prefix': 's12'
+        'body': 'u-size-12'
+
+    'Springboard Size 11':
+        'prefix': 's11'
+        'body': 'u-size-11'
+
+    'Springboard Size 10':
+        'prefix': 's10'
+        'body': 'u-size-10'
+
+    'Springboard Size 9':
+        'prefix': 's9'
+        'body': 'u-size-9'
+
+    'Springboard Size 8':
+        'prefix': 's8'
+        'body': 'u-size-8'
+
+    'Springboard Size 7':
+        'prefix': 's7'
+        'body': 'u-size-7'
+
+    'Springboard Size 6':
+        'prefix': 's6'
+        'body': 'u-size-6'
+
+    'Springboard Size 5':
+        'prefix': 's5'
+        'body': 'u-size-5'
+
+    'Springboard Size 4':
+        'prefix': 's4'
+        'body': 'u-size-4'
+
+    'Springboard Size 3':
+        'prefix': 's3'
+        'body': 'u-size-3'
+
+    'Springboard Size 2':
+        'prefix': 's2'
+        'body': 'u-size-2'
+
+    'Springboard Size 1':
+        'prefix': 's1'
+        'body': 'u-size-1'
