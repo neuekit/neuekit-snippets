@@ -4,7 +4,7 @@ Fast fingers rejoice! SpringBoard Snippets is here.
 
 SpringBoard Snippets brings rapid access to frequently used classes, helpers, markup and more, from the SpringBoard front-end framework.
 
-Available for Atom & Visual Studio Code.
+Available for Atom & Visual Studio Code (coming soon).
 
 ### Atom
 
