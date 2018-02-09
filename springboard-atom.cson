@@ -1,0 +1,698 @@
+##################################################################################################
+#
+# SPRINGBOARD ATOM SNIPPETS
+# version: 0.1
+# author: Chris Myers
+# Springboard: https://github.com/creativelittledots/springboard
+# Copyright (c) 2018 Creative Little Dots
+#
+#
+#   .d8888b.                   d8b                   888888b.                                 888
+#  d88P  Y88b                  Y8P                   888  "88b                                888
+#  Y88b.                                             888  .88P                                888
+#   "Y888b.   88888b.  888d888 888 88888b.   .d88b.  8888888K.   .d88b.   8888b.  888d888 .d88888
+#      "Y88b. 888 "88b 888P"   888 888 "88b d88P"88b 888  "Y88b d88""88b     "88b 888P"  d88" 888
+#        "888 888  888 888     888 888  888 888  888 888    888 888  888 .d888888 888    888  888
+#  Y88b  d88P 888 d88P 888     888 888  888 Y88b 888 888   d88P Y88..88P 888  888 888    Y88b 888
+#   "Y8888P"  88888P"  888     888 888  888  "Y88888 8888888P"   "Y88P"  "Y888888 888     "Y88888
+#             888                                888
+#             888                           Y8b d88P
+#             888                            "Y88P"
+#
+##################################################################################################
+
+
+###################
+# HTML
+###################
+
+'.text.html.basic':
+
+    # SB - grid
+    'Springboard Grid':
+        'prefix': 'sb-grid'
+        'description': 'A grid container from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            $1
+
+        </div>
+        """
+
+    # SB - grid item
+    'Springboard Grid Item':
+        'prefix': 'sb-item'
+        'description': 'A single column from the Springboard framework'
+        'body':"""
+        <div class="o-grid__item">
+
+            $1
+
+        </div>
+        """
+
+    # SB - grid & 1 grid item
+    'Springboard 1 Column':
+        'prefix': 'sb1'
+        'description': 'A single grid row / column from the Springboard framework'
+        'body':"""
+        <div class="o-grid  o-grid--item">
+
+            $1
+
+        </div>
+        """
+
+    # SB - grid & 2 columns
+    'Springboard 2 Columns':
+        'prefix': 'sb2'
+        'description': 'A Grid row with 2 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 3 columns
+    'Springboard 3 Columns':
+        'prefix': 'sb3'
+        'description': 'A Grid row with 3 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 4 columns
+    'Springboard 4 Columns':
+        'prefix': 'sb4'
+        'description': 'A Grid row with 4 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $4
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 5 columns
+    'Springboard 5 Columns':
+        'prefix': 'sb5'
+        'description': 'A Grid row with 5 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $4
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $5
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 6 columns
+    'Springboard 6 Columns':
+        'prefix': 'sb6'
+        'description': 'A Grid row with 6 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $4
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $5
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $6
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 7 columns
+    'Springboard 7 Columns':
+        'prefix': 'sb7'
+        'description': 'A Grid row with 7 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $4
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $5
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $6
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $7
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 8 columns
+    'Springboard 8 Columns':
+        'prefix': 'sb8'
+        'description': 'A Grid row with 8 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $4
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $5
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $6
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $7
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $8
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 9 columns
+    'Springboard 9 Columns':
+        'prefix': 'sb9'
+        'description': 'A Grid row with 9 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $4
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $5
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $6
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $7
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $8
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $9
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 10 columns
+    'Springboard 10 Columns':
+        'prefix': 'sb10'
+        'description': 'A Grid row with 10 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $4
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $5
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $6
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $7
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $8
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $9
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $10
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 11 columns
+    'Springboard 11 Columns':
+        'prefix': 'sb11'
+        'description': 'A Grid row with 11 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $4
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $5
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $6
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $7
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $8
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $9
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $10
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $11
+
+            </div>
+
+        </div>
+        """
+
+    # SB - grid & 12 columns
+    'Springboard 12 Columns':
+        'prefix': 'sb12'
+        'description': 'A Grid row with 12 columns from the Springboard framework'
+        'body':"""
+        <div class="o-grid">
+
+            <div class="o-grid__item">
+
+                $1
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $2
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $3
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $4
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $5
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $6
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $7
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $8
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $9
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $10
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $11
+
+            </div>
+
+            <div class="o-grid__item">
+
+                $12
+
+            </div>
+
+        </div>
+        """
+
+
+
+
+
+################################################################################
+# HTML - Strings
+################################################################################
+
+'.string.html':
+
+    # Springboard 'Size' utility classes
+
+    'Springboard Size 12':
+        'prefix': 's12'
+        'body': 'u-size-12'
+
+    'Springboard Size 11':
+        'prefix': 's11'
+        'body': 'u-size-11'
+
+    'Springboard Size 10':
+        'prefix': 's10'
+        'body': 'u-size-10'
+
+    'Springboard Size 9':
+        'prefix': 's9'
+        'body': 'u-size-9'
+
+    'Springboard Size 8':
+        'prefix': 's8'
+        'body': 'u-size-8'
+
+    'Springboard Size 7':
+        'prefix': 's7'
+        'body': 'u-size-7'
+
+    'Springboard Size 6':
+        'prefix': 's6'
+        'body': 'u-size-6'
+
+    'Springboard Size 5':
+        'prefix': 's5'
+        'body': 'u-size-5'
+
+    'Springboard Size 4':
+        'prefix': 's4'
+        'body': 'u-size-4'
+
+    'Springboard Size 3':
+        'prefix': 's3'
+        'body': 'u-size-3'
+
+    'Springboard Size 2':
+        'prefix': 's2'
+        'body': 'u-size-2'
+
+    'Springboard Size 1':
+        'prefix': 's1'
+        'body': 'u-size-1'
+
