@@ -1,4 +1,4 @@
-# SpringBoard Snippets
+# Neue Kit Snippets
 
 👋 Fast fingers rejoice! Neue Kit Snippets is here. 
 
